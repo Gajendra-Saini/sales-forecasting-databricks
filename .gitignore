@@ -1,0 +1,16 @@
+# Databricks
+.dbc
+.metastore
+.spark-warehouse
+
+# Data
+*.csv
+*.parquet
+_delta_log/
+
+# Python
+__pycache__/
+.env
+
+# OS
+.DS_Store
