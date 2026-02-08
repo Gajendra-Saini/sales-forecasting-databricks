@@ -35,11 +35,8 @@ This project demonstrates how raw retail data can be securely ingested, cleaned,
 
 ## 📂 Dataset
 
-- Retail Superstore dataset (Kaggle)
+- Retail Superstore dataset (Kaggle)(3A Superstore)
 - CSV format
 - Data stored in Azure Data Lake Storage
 
----
-
-## 🏗️ High-Level Architecture
 
