@@ -44,17 +44,11 @@ This project demonstrates how raw retail data can be securely ingested, cleaned,
 ## 🏗️ High-Level Architecture
 
 ADLS (CSV files)
-↓
-Raw Layer (External Volume)
-↓
-Bronze Layer (Delta in Volume)
-↓
-Silver Layer (Clean Managed Tables)
-↓
-Gold Layer (Facts, Aggregates, Features)
-↓
-Dashboards & ML Models
-
+-> Raw Layer (External Volume)
+-> Bronze Layer (Delta in Volume)
+-> Silver Layer (Clean Managed Tables)
+-> Gold Layer (Facts, Aggregates, Features)
+-> Dashboards & ML Models
 
 ---
 
