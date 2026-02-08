@@ -276,7 +276,8 @@ The best performing model was registered in **Unity Catalog** for governance and
 4. Compare actual vs predicted values
 5. Calculate prediction error
 6. Classify model performance
-
+   
+<img width="1469" height="730" alt="Screenshot 2026-02-09 at 2 47 37 AM" src="https://github.com/user-attachments/assets/376075e6-75b9-4e68-87a0-57396950342a" />
 <img width="1466" height="818" alt="Screenshot 2026-02-09 at 2 24 13 AM" src="https://github.com/user-attachments/assets/02f60691-6c62-4fa1-bbff-f86326960f25" />
 
 ---
