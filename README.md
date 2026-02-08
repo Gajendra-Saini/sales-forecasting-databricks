@@ -189,6 +189,7 @@ Built using SQL window functions.
 ```sql
 OPTIMIZE gold.sales_fact ZORDER BY (ORDER_TS, ITEM_ID);
 OPTIMIZE gold.sales_details ZORDER BY (ORDER_DATE, ITEM_ID);
+```
 
 ## 📊 BI Dashboard
 
