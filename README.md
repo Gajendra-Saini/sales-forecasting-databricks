@@ -67,7 +67,6 @@ ADLS (CSV files)
 - Created External Volumes on top of ADLS paths
 - All data access done via `/Volumes/...`
 
-📸 **Screenshot placeholder**
 <img width="1468" height="715" alt="Screenshot 2026-02-09 at 1 54 07 AM" src="https://github.com/user-attachments/assets/05275512-a78e-4e92-be73-6fa5e0a17bf1" />
 
 ---
@@ -83,7 +82,6 @@ ADLS (CSV files)
 - Unity Catalog External Volume
 - Spark reads CSV directly from volume
 
-📸 **Screenshot placeholder**
 <img width="1470" height="711" alt="Screenshot 2026-02-09 at 1 52 46 AM" src="https://github.com/user-attachments/assets/70d218be-e419-4854-9d64-aa819a69ff16" />
 
 
