@@ -1,4 +1,4 @@
-# Sales Forecasting Platform on Azure Databricks
+# Sales Forecasting using Azure Databricks
 
 An end-to-end **Lakehouse + Machine Learning project** built on **Azure Databricks**, implementing **Unity Catalog governance**, **Medallion Architecture**, **Delta Lake**, **BI Dashboards**, and **MLflow-based demand forecasting**.
 
