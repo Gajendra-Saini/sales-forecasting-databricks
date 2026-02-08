@@ -190,8 +190,101 @@ Built using SQL window functions.
 OPTIMIZE gold.sales_fact ZORDER BY (ORDER_TS, ITEM_ID);
 OPTIMIZE gold.sales_details ZORDER BY (ORDER_DATE, ITEM_ID);
 
+## 📊 BI Dashboard
+
+Built using **Databricks SQL Dashboards** to provide business-friendly insights from the Gold layer.
+
+### Visuals Included
+- **Total Revenue by Branch**
+- **Total Orders by Branch**
+- **Total Units Sold by Branch**
+- **Average Order Value**
+- **Revenue Trend Over Time**
+
+<img width="1105" height="581" alt="Screenshot 2026-02-09 at 2 04 21 AM" src="https://github.com/user-attachments/assets/bf3b5028-1fea-439d-8560-175d96c3f76b" />
 
 
+---
+
+## 🤖 Machine Learning – Sales Forecasting
+
+### Objective
+Predict **daily units sold per item per branch** using historical sales patterns.
+
+**Target variable**
 
 
+---
 
+### Feature Engineering
+To capture time-series behavior, the following features were engineered:
+
+- **Rolling averages**
+  - Capture short-term and long-term demand trends
+- **Lag feature**
+  - Captures recent sales momentum
+- **Time-series aware design**
+  - Prevents data leakage by using only past information
+
+---
+
+### Model Used
+- **Algorithm**: Spark ML `RandomForestRegressor`
+- **Train / Test Split**: 80% / 20%
+- **Evaluation Metric**: RMSE (Root Mean Squared Error)
+
+---
+
+## 🧪 Experiment Tracking with MLflow
+
+MLflow was used to track and compare multiple model runs.
+
+### Tracked Per Run
+- Hyperparameters (`numTrees`, `maxDepth`)
+- RMSE metric
+- Model artifacts
+- Input schema
+- Model signature
+
+Multiple hyperparameter combinations were tested to identify the best performing model.
+
+<img width="1464" height="736" alt="Screenshot 2026-02-09 at 2 06 14 AM" src="https://github.com/user-attachments/assets/ad748e70-6962-4162-bd70-1733c8326753" />
+
+
+---
+
+## 🧾 Model Registry (Unity Catalog)
+
+The best performing model was registered in **Unity Catalog** for governance and lifecycle management.
+
+### Registry Features
+- Versioned model storage
+- Centralized governance
+- Ready for inference or deployment
+
+**Registered model name**
+<img width="1467" height="725" alt="Screenshot 2026-02-09 at 2 09 00 AM" src="https://github.com/user-attachments/assets/f77ae849-d200-4a76-aecc-0476694b477f" />
+
+
+---
+
+## 🔮 Model Inference & Evaluation
+
+### Inference Steps
+1. Load model from Unity Catalog registry
+2. Assemble feature vector
+3. Generate predictions
+4. Compare actual vs predicted values
+5. Calculate prediction error
+6. Classify model performance
+
+---
+
+### Business-Friendly Evaluation Logic
+To make model performance understandable to non-technical users:
+
+- **Error ≤ 2 units** → ✅ Success
+- **Error > 2 units** → ❌ Failure
+
+Final **success and failure percentages** were computed to summarize overall model quality.
+<img width="1463" height="740" alt="Screenshot 2026-02-09 at 2 09 54 AM" src="https://github.com/user-attachments/assets/a9da5147-e41d-423f-a9e8-dc5fe3d002a5" />
