@@ -102,9 +102,7 @@ ADLS (CSV files)
 - `ingestion_ts`
 - `source_file`
 
-📸 **Screenshot placeholder**
 <img width="1469" height="739" alt="Screenshot 2026-02-09 at 1 54 45 AM" src="https://github.com/user-attachments/assets/eb9659b5-4f8f-4bb6-9ea6-c0333e398b1b" />
-
 
 ---
 
@@ -129,9 +127,7 @@ ADLS (CSV files)
 - Date validation
 - Numeric normalization
 
-📸 **Screenshot placeholder**
 <img width="1470" height="741" alt="Screenshot 2026-02-09 at 1 55 26 AM" src="https://github.com/user-attachments/assets/9534861c-61b5-4faa-9e6f-718c7dc4e9eb" />
-
 
 ---
 
@@ -145,7 +141,6 @@ ADLS (CSV files)
 - Joins orders, order details, customers, branches, and products
 - Used by dashboards and ML features
 
-📸 **Screenshot placeholder**
 <img width="1444" height="703" alt="Screenshot 2026-02-09 at 1 55 54 AM" src="https://github.com/user-attachments/assets/0adfa3da-cd87-4547-9c7f-63fd22efaee1" />
 
 
@@ -163,7 +158,6 @@ Daily branch-level KPIs:
 
 Used for BI dashboards.
 
-📸 **Screenshot placeholder**
 <img width="1470" height="733" alt="Screenshot 2026-02-09 at 1 58 59 AM" src="https://github.com/user-attachments/assets/f130e07a-0494-434a-9adb-d1f1f3d19c59" />
 
 ---
@@ -185,7 +179,6 @@ Features:
 
 Built using SQL window functions.
 
-📸 **Screenshot placeholder**
 <img width="1463" height="731" alt="Screenshot 2026-02-09 at 1 57 39 AM" src="https://github.com/user-attachments/assets/06d0aba3-b3e5-4421-a47d-a5b2e079532c" />
 
 
