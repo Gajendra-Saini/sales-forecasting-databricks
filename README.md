@@ -142,8 +142,7 @@ ADLS (CSV files)
 - Used by dashboards and ML features
 
 <img width="1444" height="703" alt="Screenshot 2026-02-09 at 1 55 54 AM" src="https://github.com/user-attachments/assets/0adfa3da-cd87-4547-9c7f-63fd22efaee1" />
-
-
+<img width="1464" height="783" alt="Screenshot 2026-02-09 at 2 20 20 AM" src="https://github.com/user-attachments/assets/fda346ba-da30-4265-9861-ec8506cedcc5" />
 ---
 
 ### 2️⃣ Branch Sales (BI Aggregation)
@@ -159,6 +158,8 @@ Daily branch-level KPIs:
 Used for BI dashboards.
 
 <img width="1470" height="733" alt="Screenshot 2026-02-09 at 1 58 59 AM" src="https://github.com/user-attachments/assets/f130e07a-0494-434a-9adb-d1f1f3d19c59" />
+<img width="1470" height="816" alt="Screenshot 2026-02-09 at 2 21 08 AM" src="https://github.com/user-attachments/assets/8bc5abba-a330-4a92-b7eb-ebb65354f45f" />
+
 
 ---
 
@@ -180,6 +181,7 @@ Features:
 Built using SQL window functions.
 
 <img width="1463" height="731" alt="Screenshot 2026-02-09 at 1 57 39 AM" src="https://github.com/user-attachments/assets/06d0aba3-b3e5-4421-a47d-a5b2e079532c" />
+<img width="1470" height="835" alt="Screenshot 2026-02-09 at 2 21 30 AM" src="https://github.com/user-attachments/assets/f468d5c4-46a8-4f96-ad4d-5feeea039658" />
 
 
 ---
@@ -204,16 +206,12 @@ Built using **Databricks SQL Dashboards** to provide business-friendly insights 
 
 <img width="1105" height="581" alt="Screenshot 2026-02-09 at 2 04 21 AM" src="https://github.com/user-attachments/assets/bf3b5028-1fea-439d-8560-175d96c3f76b" />
 
-
 ---
 
 ## 🤖 Machine Learning – Sales Forecasting
 
 ### Objective
 Predict **daily units sold per item per branch** using historical sales patterns.
-
-**Target variable**
-
 
 ---
 
